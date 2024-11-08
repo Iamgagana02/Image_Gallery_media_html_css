@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .container>h1{
+    color: orangered;
+} */
+/* child selector direct child select only */
+
+/* .container ~ .container h1{
+    color: blueviolet;
+} */
+/* siblings selector */
+
+/* .container + .container h1{
+    color: teal;
+} */
+/* adjecent sibling selctor */
+
+/* div:not(.grid-container){
+    background-color: yellowgreen;
+} */
+
+/* .inside-zero span,
+.inside-one span,
+.inside-two span,
+.inside-three span{
+    color: orchid;
+} */
+
+/* :is(.inside-zero, .inside-one, .inside-two, .inside-three) span{
+    color: rgb(112, 218, 184);
+} */
+
+/* :where(.inside-zero, .inside-one, .inside-two, .inside-three) span{
+    color: rgb(112, 218, 184);
+} */
+
+/* span tag undenkil mathram */
+/* h1:has(span){
+    color: orangered;
+} */
